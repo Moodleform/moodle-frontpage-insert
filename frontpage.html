@@ -14,13 +14,20 @@ h3,h4,h5,h6 {
 
 </STYLE>
 
+<div class="jumbotron text-center">
+  <h1>Welcome to my Moodle</h1>
+  <p>A responsive Moodle front page insert</p> 
+   <br /><a href="#" data-toggle="popover" title="Contact" 
+      data-content="email: us@muddle.com">Contact us</a>
+</div>
+
 <div class="container">
 	<!-- ligne entête --->
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-sm-12">
 			<img class="img-fluid" src="frontpageinsert/formation.jpg" alt="universite" height="100px">
 		</div>
-	</div>
+	</div> -->
 	
 	<!-- ligne intermédiaire en 4 : actualités --> 
 	<div class="row">
@@ -102,3 +109,9 @@ h3,h4,h5,h6 {
 		</div>
 	</div>
 </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
